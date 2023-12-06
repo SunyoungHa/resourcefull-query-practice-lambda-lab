@@ -70,4 +70,4 @@ In pgAdmin 4, control + click provider_participant_intake to view common table o
 
 1. View/Edit Data > All Rows: allows you to see all rows of data in that table
 
-2. Query Tool: allows you to run PostgreSQL queries. Use this tool to help you draft your query statements.
+2. Query Tool: allows you to run PostgreSQL queries. Use this tool to help you draft or check your query statements. Remember to click the Run button to activate the query.
