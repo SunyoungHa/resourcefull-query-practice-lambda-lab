@@ -1,6 +1,6 @@
 ## ResourceFull Query Practice
 
-The purpose of this repository is to seed a database with a table that pertains to the lab activity to draft query statements. You will need these tools: secrets, pgAdmin 4, and repository access to run the command necessary to get the mock data set up locally.
+The purpose of this repository is to seed a database with a table that pertains to the lab activity to draft query statements and check that the queries actually run successfully. You will need these tools: secrets, pgAdmin 4, and repository access to run the command necessary to get the mock data set up locally.
 
 ## secrets.json file
 
