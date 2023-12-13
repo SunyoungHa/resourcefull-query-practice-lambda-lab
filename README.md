@@ -1,6 +1,16 @@
 ## ResourceFull Query Practice
 
-The purpose of this repository is to seed a database with a table that pertains to the lab activity to draft query statements and check that the queries actually run successfully. You will need these tools: secrets, pgAdmin 4, and repository access to run the command necessary to get the mock data set up locally.
+The purpose of this repository is to seed a database with a table that pertains to the lab activity to draft query statements and check that the queries actually run successfully. You will need these tools: secrets, pgAdmin 4, and repository access to run the command necessary to get the mock data set up locally. After setting up the local querying playground, you can close the repo as it has done its job and is no longer needed.
+
+## Prerequisites
+
+1. In Terminal, be sure that yarn is installed by running: yarn --version
+   a. If yarn is not found, then run this command in Terminal: npm install --global yarn
+   b. This repo needs yarn to help with seeding the database with table data.
+
+2. In Terminal, check if you have psql installed by running: psql --version
+   a. If psl is not found, then run this command in Terminal: brew install postgresql@16
+   b. After installing the package, Terminal may ask you to export the path and that command may look like this (PLEASE BE SURE TO CHECK THE ACTUAL PATH YOUR DEVICE TELLS YOU TO EXPORT FROM - DO NOT USE THE EXAMPLE AT RIGHT UNLESS NOTED IN TERMINAL ON YOUR DEVICE): export PATH="/Applications/Postgres.app/Contents/Versions/9.5/bin:$PATH"
 
 ## secrets.json file
 
