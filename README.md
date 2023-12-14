@@ -23,7 +23,7 @@ Both yarn and psql are needed to seed a database table with initial data in this
          - You do not need to download pgAdmin 4 again.
 
       ii. TERMINAL: To install PostgreSQL, run: brew install postgresql@16 OR brew install postgresql
-         - After installing the package, Terminal may ask you to export the path and may look like: export PATH="{some path your device prints out}/bin:$PATH"
+         - After installing the package, Terminal may ask you to export the path: export PATH="{some path your device prints out}/bin:$PATH"
          - Contact the Engineering Manager for debugging if psql command is still not found after exporting the path when you run: psql --version
 
 ## secrets.json file
