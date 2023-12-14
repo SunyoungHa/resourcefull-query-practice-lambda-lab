@@ -17,7 +17,9 @@ The purpose of this repository is to seed a database with a table that pertains 
       i. BROWSER: You can download PostgreSQL and pgAdmin 4 (included): [link](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) and go through the installation process accepting all defaults.
          - The super user password is something to note and is separate from the password in the secrets.json file for this project.
          - When you click Finish, you do NOT need to configure the Application Stack Builder.
-         - In Finder > Applications, scroll to and open a folder named PostgreSQL. Then click and drag pgAdmin 4 to the Dock. 
+         - In Finder > Applications, scroll to and open a folder named PostgreSQL. Then click and drag pgAdmin 4 to the Dock.
+         - Once complete, close out of the installation window. Go to Finder > Locations (left sidebar) > PostgreSQL > click eject.
+         - You do not need to download pgAdmin 4 again.
 
       ii. TERMINAL: To install PostgreSQL, run: brew install postgresql@16
          - After installing the package, Terminal may ask you to export the path and may look like: export PATH="{some path your device prints out}/bin:$PATH"
@@ -33,7 +35,7 @@ The secrets.json file houses the necessary credentials for your local device to 
 
 ## pgAdmin 4 Download
 
-pgAdmin 4 allows us to query and view the data in our databases on our devices.
+pgAdmin 4 allows us to query and view the data in our databases on our devices. If you already have pgAdmin 4 downloaded, then skip to the next section.
 
 1. Go to https://www.pgadmin.org/download/pgadmin-4-macos/ by hovering over the underlined site link, then pressing Command and clicking the link.
 
