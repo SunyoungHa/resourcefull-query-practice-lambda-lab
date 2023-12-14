@@ -8,13 +8,20 @@ The purpose of this repository is to seed a database with a table that pertains 
 
    a. If yarn is not found, then run this command in Terminal: npm install --global yarn
 
-   b. This repo needs yarn to help with seeding the database with table data.
+   b. This repo needs yarn to help with seeding the database with table data. Yarn is a common command used in multiple repos.
 
 2. In Terminal, check if you have psql installed by running: psql --version
 
-   a. If psl is not found, then run this command in Terminal: brew install postgresql@16
+   a. If psl is not found, you have 2 ways to install:
 
-   b. After installing the package, Terminal may ask you to export the path and that command may look like this (PLEASE BE SURE TO CHECK THE ACTUAL PATH YOUR DEVICE TELLS YOU TO EXPORT FROM - DO NOT USE THE EXAMPLE AT RIGHT UNLESS NOTED IN TERMINAL ON YOUR DEVICE): export PATH="/Applications/Postgres.app/Contents/Versions/9.5/bin:$PATH"
+      i. BROWSER: You can download PostgreSQL and pgAdmin 4 (included): [link](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) and go through the installation process accepting all defaults.
+         - The super user password is something to note and is separate from the password in the secrets.json file for this project.
+         - When you click Finish, you do NOT need to configure the Application Stack Builder.
+         - In Finder > Applications, scroll to and open a folder named PostgreSQL. Then click and drag pgAdmin 4 to the Dock. 
+
+      ii. TERMINAL: To install PostgreSQL, run: brew install postgresql@16
+         - After installing the package, Terminal may ask you to export the path and may look like: export PATH="{some path your device prints out}/bin:$PATH"
+         - Contact the Engineering Manager for debugging if psql command is still not found after exporting the path when you run: psql --version
 
 ## secrets.json file
 
