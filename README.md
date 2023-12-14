@@ -3,29 +3,38 @@
 The purpose of this repository is to seed a database with a table that pertains to the lab activity to draft query statements and check that the queries actually run successfully. You will need these tools: prerequisite command line tools, secrets, pgAdmin 4, and repository access to run the command necessary to get the mock data set up locally. After setting up the local querying playground, you can close the repo as it has done its job and is no longer needed.
 
 ## Prerequisite Command Line Tools
+
 Both yarn and psql are needed to seed a database table with initial data in this repo. Yarn is a common command used in multiple repos. The psql command allows us to run PostgreSQL in Terminal while pgAdmin 4 is the GUI (graphical user interface).
 
-1. In Terminal, be sure that yarn is installed by running: yarn --version
+1.  In Terminal, be sure that yarn is installed by running: yarn --version
 
-   a. If yarn is not found, then run this command in Terminal: npm install --global yarn
+    a. If yarn is not found, then run this command in Terminal: npm install --global yarn
 
-   b. This repo needs yarn to help with seeding the database with table data.
+    b. This repo needs yarn to help with seeding the database with table data.
 
-2. In Terminal, check if you have psql installed by running: psql --version
+2.  In Terminal, check if you have psql installed by running: psql --version
 
-   a. If psql is not found, you have 2 ways to install:
+    a. If psql is not found, you have 2 ways to install:
 
-      i. BROWSER: Download PostgreSQL and pgAdmin 4 (included) [here](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) and go through the installation process accepting all defaults.
-         - The super user password is something to note and is separate from the password in the secrets.json file for this project.
-         - When you click Finish, you do NOT need to configure the Application Stack Builder.
-         - In Finder > Applications, scroll to and open a folder named PostgreSQL. Then click and drag pgAdmin 4 to the Dock.
-         - Once complete, close out of the installation window. Go to Finder > Locations (left sidebar) > PostgreSQL > click eject.
-         - You do not need to download pgAdmin 4 again.
-         - Contact the Engineering Manager for debugging if psql command is still not found in Terminal when you run: psql --version
+    i. BROWSER: Download PostgreSQL and pgAdmin 4 (included) [here](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) and go through the installation process accepting all defaults.
 
-      ii. TERMINAL: To install PostgreSQL, run: brew install postgresql@16 OR brew install postgresql
-         - After installing the package, Terminal may ask you to export the path: export PATH="{some path your device prints out}/bin:$PATH"
-         - Contact the Engineering Manager for debugging if psql command is still not found after exporting the path when you run: psql --version
+        - The super user password is something to note and is separate from the password in the secrets.json file for this project.
+
+        - When you click Finish, you do NOT need to configure the Application Stack Builder.
+
+        - In Finder > Applications, scroll to and open a folder named PostgreSQL. Then click and drag pgAdmin 4 to the Dock.
+
+        - Once complete, close out of the installation window. Go to Finder > Locations (left sidebar) > PostgreSQL > click eject.
+
+        - You do not need to download pgAdmin 4 again.
+
+        - Contact the Engineering Manager for debugging if psql command is still not found in Terminal when you run: psql --version
+
+    ii. TERMINAL: To install PostgreSQL, run: brew install postgresql@16 OR brew install postgresql
+
+        - After installing the package, Terminal may ask you to export the path: export PATH="{some path your device prints out}/bin:$PATH"
+
+        - Contact the Engineering Manager for debugging if psql command is still not found after exporting the path when you run: psql --version
 
 ## secrets.json file
 
