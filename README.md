@@ -21,6 +21,7 @@ Both yarn and psql are needed to seed a database table with initial data in this
          - In Finder > Applications, scroll to and open a folder named PostgreSQL. Then click and drag pgAdmin 4 to the Dock.
          - Once complete, close out of the installation window. Go to Finder > Locations (left sidebar) > PostgreSQL > click eject.
          - You do not need to download pgAdmin 4 again.
+         - Contact the Engineering Manager for debugging if psql command is still not found in Terminal when you run: psql --version
 
       ii. TERMINAL: To install PostgreSQL, run: brew install postgresql@16 OR brew install postgresql
          - After installing the package, Terminal may ask you to export the path: export PATH="{some path your device prints out}/bin:$PATH"
