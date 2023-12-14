@@ -12,7 +12,7 @@ The purpose of this repository is to seed a database with a table that pertains 
 
 2. In Terminal, check if you have psql installed by running: psql --version
 
-   a. If psl is not found, you have 2 ways to install:
+   a. If psql is not found, you have 2 ways to install:
 
       i. BROWSER: You can download PostgreSQL and pgAdmin 4 (included): [link](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) and go through the installation process accepting all defaults.
          - The super user password is something to note and is separate from the password in the secrets.json file for this project.
