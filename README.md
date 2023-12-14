@@ -1,8 +1,8 @@
 ## ResourceFull Query Practice
 
-The purpose of this repository is to seed a database with a table that pertains to the lab activity to draft query statements and check that the queries actually run successfully. You will need these tools: secrets, pgAdmin 4, and repository access to run the command necessary to get the mock data set up locally. After setting up the local querying playground, you can close the repo as it has done its job and is no longer needed.
+The purpose of this repository is to seed a database with a table that pertains to the lab activity to draft query statements and check that the queries actually run successfully. You will need these tools: prerequisite command line tools, secrets, pgAdmin 4, and repository access to run the command necessary to get the mock data set up locally. After setting up the local querying playground, you can close the repo as it has done its job and is no longer needed.
 
-## Prerequisites
+## Prerequisite Command Line Tools
 
 1. In Terminal, be sure that yarn is installed by running: yarn --version
 
