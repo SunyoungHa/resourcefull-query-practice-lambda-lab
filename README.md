@@ -3,12 +3,13 @@
 The purpose of this repository is to seed a database with a table that pertains to the lab activity to draft query statements and check that the queries actually run successfully. You will need these tools: prerequisite command line tools, secrets, pgAdmin 4, and repository access to run the command necessary to get the mock data set up locally. After setting up the local querying playground, you can close the repo as it has done its job and is no longer needed.
 
 ## Prerequisite Command Line Tools
+Both yarn and psql are needed to seed a database table with initial data in this repo. Yarn is a common command used in multiple repos. The psql command allows us to run PostgreSQL in Terminal while pgAdmin 4 is the GUI (graphical user interface).
 
 1. In Terminal, be sure that yarn is installed by running: yarn --version
 
    a. If yarn is not found, then run this command in Terminal: npm install --global yarn
 
-   b. This repo needs yarn to help with seeding the database with table data. Yarn is a common command used in multiple repos.
+   b. This repo needs yarn to help with seeding the database with table data.
 
 2. In Terminal, check if you have psql installed by running: psql --version
 
