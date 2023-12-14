@@ -14,7 +14,7 @@ The purpose of this repository is to seed a database with a table that pertains 
 
    a. If psql is not found, you have 2 ways to install:
 
-      i. BROWSER: You can download PostgreSQL and pgAdmin 4 (included): [link](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) and go through the installation process accepting all defaults.
+      i. BROWSER: Download PostgreSQL and pgAdmin 4 (included) [here](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) and go through the installation process accepting all defaults.
          - The super user password is something to note and is separate from the password in the secrets.json file for this project.
          - When you click Finish, you do NOT need to configure the Application Stack Builder.
          - In Finder > Applications, scroll to and open a folder named PostgreSQL. Then click and drag pgAdmin 4 to the Dock.
