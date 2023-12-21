@@ -44,16 +44,16 @@ Examples:
 
 YML Exercise 1: For the Reports tab in the ResourceFull Provider App, can you think of an appropriate name for a new Lambda?
 
-YML Exercise 2: Since the Reports tab does not exist in the app yet, and all the other tabs have its own directory, create a folder within the src folder for this new directory.
+YML Exercise 2: Since the Reports tab does not exist in the app yet, and all the other tabs have its own directory, in the **src** folder create a new folder for all Lambdas that have to do with the Reports tab in the app.
 
 YML Exercise 3: In the folder you just created to house all Lambdas needed for this new Reports tab, create a JS file with the new Lambda's name from YML Exercise 1.
 
 YML Exercise 4: In the **serverless.yml** file, scroll to the **functions** section to add your Lambda file name and its directory in the applicable places, deleting placeholder punctuation <<>> as well.
 
-YML Exercise 5: In the **serverless.yml** file's **functions** section, the *method* for your function may be DIFFERENT from the naming of your lambda! For example, *getProviderProfile* may actually have a *post* method because the request posts the provider organization's name from the UI to the Lambda. So consider whether your UI sends data to your Lambda, because our Lambdas usually only have two methods: *get* or *post*
-   method: get
-   OR
-   method: post
+YML Exercise 5: In the **serverless.yml** file's **functions** section, the _method_ for your function may be DIFFERENT from the naming of your lambda! For example, _getProviderProfile_ may actually have a _post_ method because the request posts the provider organization's name from the UI to the Lambda. So consider whether your UI sends data to your Lambda, because our Lambdas usually only have two methods: _get_ or _post_
+method: get
+OR
+method: post
 
 YML Exercise 6: You can now comment everything in for the **functions** section; keep ADMIN commented out.
 
