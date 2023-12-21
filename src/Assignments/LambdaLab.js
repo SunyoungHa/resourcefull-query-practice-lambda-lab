@@ -74,3 +74,7 @@ console.log(`${data.provider} intakes`, providerIntakes);
 // The results should print in console.
 
 // 3. Every time you refactor your code, in VS Code Terminal, stop the server by pressing: Control + C. Then restart the server to test your refactored code: sls offline. Then test the request in Postman.
+
+// Exercise 8: From the Pseudocoding Databases with Product Querying Practie Lab Activity for the Reports tab in the ResourceFull Provider App, try refactoring 3 queries to insert your own PostgreSQL in JS queries in the Lambda file you created. Make sure you console.log() every query result. Then test in Postman to see if you get the appropriate responses logged!
+
+// Exercise 9: Now that you have experimented with your own 3 queries, consider how you want to group all the query results to store in the body of the response to send the data back to the UI.
