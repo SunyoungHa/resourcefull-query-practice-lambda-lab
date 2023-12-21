@@ -59,4 +59,4 @@ YML Exercise 6: You can now comment everything in for the **functions** section;
 
 ## Lambda File
 
-Since markdown punctuation can impact copy and paste between markdown and code files, please open LambdaLab.js to get starter code to build your custom code for the Lambda's handler function.
+Since markdown punctuation can impact copy and paste between markdown and code files, please open [LambdaLab.js](./LambdaLab.js) to get starter code to build your custom code for the Lambda's handler function.
