@@ -29,11 +29,10 @@ provider:
 
 functions:
   # ADMIN
-  # <<lamda file name in camel case>>:
-  #   handler: src/<<provider ui tab name>>/<<lamda file name in camel case>>.handler
-  #   events:
-  #     - http:
-  #         path: /<<lamda file name in all lowercase>>
-  #         method: <<get OR post>>
-  #         cors: true
-
+  <<lamda file name in camel case>>:
+    handler: src/<<provider ui tab name>>/<<lamda file name in camel case>>.handler
+    events:
+      - http:
+          path: /<<lamda file name in all lowercase>>
+          method: <<get OR post>>
+          cors: true

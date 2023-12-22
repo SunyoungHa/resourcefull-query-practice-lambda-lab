@@ -55,8 +55,6 @@ YML Exercise 5: In the **serverless.yml** file's **functions** section, the _met
 OR
 `method: post`
 
-YML Exercise 6: You can now comment everything in for the **functions** section; keep ADMIN commented out. Make sure when commented in, the lines are only one indentation in from `functions:` and the indentation lines up with `# ADMIN`.
-
 ## Lambda File
 
 Since markdown punctuation can impact copy and paste between markdown and code files, please open [LambdaLab.js](./LambdaLab.js) to get starter code to build your custom code for the Lambda's handler function.
