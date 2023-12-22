@@ -28,7 +28,7 @@ The **serverless.yml** file's _functions_ section needs your new Lambda file nam
 
 A Lambda file name has 2 parts:
 
-1. Method: is the Lambda getting, adding, updating, or deleting data?
+1. Action: is the Lambda getting, adding, updating, or deleting data?
 2. Feature: what is the Lambda getting, adding, updating or deleting?
    Note: What is most important is if the name makes sense to another developer.
 
@@ -50,12 +50,12 @@ YML Exercise 3: In the folder you just created to house all Lambdas needed for t
 
 YML Exercise 4: In the **serverless.yml** file, scroll to the **functions** section to add your Lambda file name and its directory in the applicable places, deleting placeholder punctuation <<>> as well.
 
-YML Exercise 5: In the **serverless.yml** file's **functions** section, the _method_ for your function may be DIFFERENT from the naming of your lambda! For example, _getProviderProfile_ may actually have a _post_ method because the request posts the provider organization's name from the UI to the Lambda. So consider whether your UI sends data to your Lambda, because our Lambdas usually only have two methods: _get_ or _post_
-method: get
+YML Exercise 5: In the **serverless.yml** file's **functions** section, the _method_ for your function may be DIFFERENT from the _action_ word used in naming your Lambda! For example, _getProviderProfile_ may actually have a _post_ method because the request posts the provider organization's name from the UI to the Lambda. So consider whether your UI sends data to your Lambda, because our Lambdas usually only have two methods: _get_ or _post_. The code will look like this:
+`method: get`
 OR
-method: post
+`method: post`
 
-YML Exercise 6: You can now comment everything in for the **functions** section; keep ADMIN commented out.
+YML Exercise 6: You can now comment everything in for the **functions** section; keep ADMIN commented out. Make sure when commented in, the lines are only one indentation in from `functions:` and the indentation lines up with `# ADMIN`.
 
 ## Lambda File
 
