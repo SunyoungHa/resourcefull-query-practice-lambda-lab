@@ -68,6 +68,7 @@ console.log(`${data.provider} intakes`, providerIntakes);
 // Before building any custom code, let's check that your Lambda setup and code actually works when a request is sent from Postman.
 
 // 1. First, open the Terminal that's in your Dock. We will need to install serverless globally by running this command: npm install -g serverless
+// After the serverless package installation, this Terminal can be closed.
 
 // 2. Open the VS Code Terminal for this project and enter this command to start your local server: sls offline
 // Terminal will print: Server ready: http://localhost:3000 🚀
